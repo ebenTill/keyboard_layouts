@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_LOWER] = LAYOUT_ortho_4x12(
-    KC_TILD , KC_EXLM , KC_AT   , KC_HASH , KC_DLR  , KC_PERC , KC_CIRC , KC_7, KC_8 , KC_9 , KC_0 , KC_BSPC ,
+    KC_TILD , KC_EXLM , KC_AT   , KC_HASH , KC_DLR  , KC_PERC , KC_CIRC , KC_7, KC_8 , KC_9 , KC_0 , KC_DEL,
     KC_MINS  , KC_EQL   , KC_LBRC   , KC_RBRC  , KC_BSLS , KC_GRV , KC_NO   , KC_4, KC_5, KC_6, KC_RCBR , KC_NO   ,
     KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, KC_TILD, _______ , KC_1, KC_2, KC_3, _______ , _______ ,
     _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
   [_RAISE] = LAYOUT_ortho_4x12(
-    KC_TAB  , KC_1    , KC_2    , KC_3    , KC_4    , KC_5    , KC_6    , KC_CIRC    , KC_AMPR    , KC_ASTR    , KC_TILD    , KC_BSPC ,
+    KC_TAB  , KC_1    , KC_2    , KC_3    , KC_4    , KC_5    , KC_6    , KC_CIRC    , KC_AMPR    , KC_ASTR    , KC_TILD    , KC_DEL,
     KC_PIPE , KC_LT   , KC_GT   , KC_MINS , KC_UNDS , KC_QUOT , KC_DQT  , KC_EQL  , KC_PLUS , KC_LBRC , KC_RBRC , KC_BSLS ,
     _______ , _______ , _______ , _______ , _______ , _______ , _______ , KC_F1, KC_F2, _______ , _______ , _______ ,
     _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______ , _______
